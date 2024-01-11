@@ -17,10 +17,26 @@ code {
     monospace;
 }
 
-.img-card {
-  max-width: 452px;
-  max-height: 300px;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.img-animation {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-direction: normal;
 }
 .nav-bg {
   background-color: #efebe0;
+}
+
+.active-btn {
+  background-color: gray;
 }
