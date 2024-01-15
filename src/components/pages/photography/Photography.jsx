@@ -48,22 +48,26 @@ const Photography = () => {
   return (
     <div>
       <Nav />
-      <div>PHOTOGRAPHY</div>
-      {albumArray.map((album, index) => {
-        return (
-          <button
-            key={index}
-            type="button"
-            className={`${albumName === album ? "active-btn" : ""}`}
-            onClick={() => {
-              setAlbumName(album);
-              fade();
-            }}>
-            {albumDisplayName(album)}
-          </button>
-        );
-      })}
-      <ImageContainer album={albumName} fade={fadeIn} />
+      <h1 className="ml-4 my-3">PHOTOGRAPHY</h1>
+      <div className="mb-4 ml-3">
+        {albumArray.map((album, index) => {
+          return (
+            <button
+              key={index}
+              type="button"
+              className={`${albumName === album ? "active-btn" : ""} ml-2`}
+              onClick={() => {
+                setAlbumName(album);
+                fade();
+              }}>
+              <span className="p-2">{albumDisplayName(album)}</span>
+            </button>
+          );
+        })}
+      </div>
+      <div className="mx-3">
+        <ImageContainer album={albumName} fade={fadeIn} />
+      </div>
     </div>
   );
 };

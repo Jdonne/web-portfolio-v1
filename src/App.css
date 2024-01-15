@@ -1,31 +1,3 @@
-/* home page */
-.circle,
-.circle:hover {
-  width: 270px;
-  height: 100%;
-  border: 1px black solid;
-  border-radius: 50%;
-  text-decoration: none;
-}
-.rowWidth {
-  width: 80%;
-}
-.colHeight {
-  height: 33%;
-}
-
-/* images for home page */
-.img1 {
-  background-image: url("https://media.giphy.com/media/cfuL5gqFDreXxkWQ4o/giphy.gif");
-}
-
-.img2 {
-  background-image: url("https://media.giphy.com/media/MWSRkVoNaC30A/giphy.gif");
-}
-.img3 {
-  background-image: url("https://media.giphy.com/media/3oEduLSwuxfMoTbMQg/giphy.gif");
-}
-
 /* mobile styling */
 @media only screen and (max-width: 450px) {
   .mobile {

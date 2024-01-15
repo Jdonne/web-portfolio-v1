@@ -5,7 +5,7 @@ const ImageContainer = (props) => {
         return (
           <div className="w-25 p-1 ">
             <img
-              className={`rounded img-fluid ${props.fade}`}
+              className={`rounded-imgs img-fluid ${props.fade}`}
               src={index}
               loading="lazy"></img>
           </div>
