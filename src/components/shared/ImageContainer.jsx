@@ -1,11 +1,11 @@
-const ImageContainer = (props) => {
+const ImageContainer = ({ fade, album }) => {
   return (
     <div className="d-flex flex-wrap">
-      {props.album.map((index) => {
+      {album.map((index) => {
         return (
           <div className="w-25 p-1 ">
             <img
-              className={`rounded-imgs img-fluid ${props.fade}`}
+              className={`rounded-imgs img-fluid ${fade}`}
               src={index}
               loading="lazy"></img>
           </div>

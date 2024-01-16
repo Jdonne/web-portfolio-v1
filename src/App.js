@@ -8,8 +8,8 @@ function App() {
       <div className="mx-auto w-75 h-100 d-flex flex-column justify-content-center align-items-center">
         <ul className="d-flex flex-column justify-content-center align-items-center  h-100  p-0 m-0">
           <li className="  p-0 d-flex ">
-            <Link className=" d-flex font-transition " to="/">
-              <span className="text-danger display-6"> Portfolio </span>
+            <Link className=" d-flex font-transition " to="/projects">
+              <span className="text-danger display-6"> Projects </span>
             </Link>
           </li>
           <li className="  p-0 d-flex ">

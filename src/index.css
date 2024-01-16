@@ -63,7 +63,7 @@ a:hover {
   }
 }
 
-.img-animation {
+.fadein-animation {
   animation-name: fadeIn;
   animation-duration: 1s;
   animation-timing-function: ease-in;

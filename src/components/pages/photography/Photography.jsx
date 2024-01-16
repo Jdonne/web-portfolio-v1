@@ -10,7 +10,7 @@ import scarb from "../../../images/film/scarb/scarb";
 import { useEffect, useState } from "react";
 const Photography = () => {
   const [albumName, setAlbumName] = useState(chicago);
-  const [fadeIn, setFadeIn] = useState("img-animation");
+  const [fadeIn, setFadeIn] = useState("fadein-animation");
 
   useEffect(() => {
     setTimeout(() => {
@@ -19,7 +19,7 @@ const Photography = () => {
   }, []);
   const fade = () => {
     console.log(fadeIn);
-    setFadeIn("img-animation");
+    setFadeIn("fadein-animation");
     console.log(fadeIn);
     setTimeout(() => {
       setFadeIn("");
