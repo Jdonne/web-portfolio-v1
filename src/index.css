@@ -75,8 +75,55 @@ a:hover {
 .nav-bg {
   background-color: #efebe0;
 }
+/* project card */
+
+.card-img-width {
+  width: 0%;
+}
+@media only screen and (min-width: 768px) {
+  .card-img-width {
+    width: 33%;
+  }
+}
+
+/* @media only screen and (min-width: 1024px) {
+  .card-img-width {
+    width: 25%;
+  }
+} */
+
+.card-content-width {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .card-content-width {
+    width: 66%;
+  }
+}
+
+/* @media only screen and (min-width: 1024px) {
+  .card-content-width {
+    width: 25%;
+  }
+} */
 
 /* Photog page */
+
+.photo-width {
+  width: 50%;
+}
+@media only screen and (min-width: 768px) {
+  .photo-width {
+    width: 33%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .photo-width {
+    width: 25%;
+  }
+}
+
 .active-btn,
 .active-btn:focus {
   background-color: lightcoral;

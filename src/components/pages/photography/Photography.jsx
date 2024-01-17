@@ -48,14 +48,14 @@ const Photography = () => {
   return (
     <div>
       <Nav />
-      <h1 className="ml-4 my-3">PHOTOGRAPHY</h1>
-      <div className="mb-4 ml-3">
+      <h1 className="ml-4 my-3">Photography</h1>
+      <div className="mb-3 ml-3">
         {albumArray.map((album, index) => {
           return (
             <button
               key={index}
               type="button"
-              className={`${albumName === album ? "active-btn" : ""} ml-2`}
+              className={`${albumName === album ? "active-btn" : ""} ml-2 mb-2`}
               onClick={() => {
                 setAlbumName(album);
                 fade();

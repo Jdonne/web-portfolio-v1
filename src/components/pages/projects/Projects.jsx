@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div>
       <Nav />
-      <h1 className="ml-4 my-3">Projects</h1>
+      <h1 className="text-center ml-4 my-3">Projects</h1>
       <div className="d-flex align-items-center flex-column">
         {projectContent.map((project, index) => {
           return (

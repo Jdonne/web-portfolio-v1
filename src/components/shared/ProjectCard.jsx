@@ -1,12 +1,15 @@
 const ProjectCard = ({ content, img, title }) => {
   return (
-    <div className="w-75 d-flex border p-3 rounded-imgs mb-3 nav-bg fadein-animation">
-      <div className="w-25">
-        <img src={img}></img>
-      </div>
-      <div className="w-75">
-        <h2>{title}</h2>
-        <span>hellow world{content}</span>
+    <div className="w-75 d-flex p-3 rounded-imgs mb-3 nav-bg fadein-animation">
+      {img && (
+        <div className="card-img-width">
+          <img src={img} className="rounded-imgs" loading="lazy"></img>
+        </div>
+      )}
+      <div className={img ? "card-content-width" : "w-100"}>
+        {title && <h2>{title}</h2>}
+
+        <span>{content}</span>
       </div>
     </div>
   );
