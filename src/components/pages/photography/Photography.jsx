@@ -31,17 +31,23 @@ const Photography = () => {
   const albumDisplayName = (albumIndex) => {
     switch (albumIndex) {
       case chicago:
-        return "chicago";
+        return { albumDisplay: "chicago", filmType: "Cinestell 800T" };
       case mtl:
-        return "montreal";
+        return {
+          albumDisplay: "montreal",
+          filmType: "Fuji Susperia X-TRA 400",
+        };
       case columbus:
-        return "columbus";
+        return { albumDisplay: "columbus", filmType: "Kodak Ultramax 400" };
       case columbusBW:
-        return "columbus B/W";
+        return {
+          albumDisplay: "columbus B/W",
+          filmType: "Ilford HP5 Plus 400",
+        };
       case utsc:
-        return "utsc";
+        return { albumDisplay: "utsc", filmType: "Fuji Susperia X-TRA 400" };
       case scarb:
-        return "scarborough";
+        return { albumDisplay: "scarborough", filmType: "Kodak Ultramax 400" };
     }
   };
 
@@ -60,10 +66,16 @@ const Photography = () => {
                 setAlbumName(album);
                 fade();
               }}>
-              <span className="p-2">{albumDisplayName(album)}</span>
+              <span className="p-2">
+                {albumDisplayName(album).albumDisplay}
+              </span>
             </button>
           );
         })}
+      </div>
+      <div className={"ml-4 my-3 " + fadeIn}>
+        <strong>Film:</strong>{" "}
+        <span>{albumDisplayName(albumName).filmType}</span>
       </div>
       <div className="mx-3">
         <ImageContainer album={albumName} fade={fadeIn} />
