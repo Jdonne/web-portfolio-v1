@@ -28,12 +28,21 @@ a:hover {
 }
 
 .background-white-img {
-  background: url(../src/images/background/white-bg.jpeg);
+  background: url(../src/images/film//columbus-bw/13.JPG);
   background-size: auto 100%;
   background-position: center;
   background-repeat: no-repeat;
   font-family: "Playfair Display", serif;
   font-weight: 500;
+}
+
+@media only screen and (min-width: 1024px) {
+  .background-white-img {
+    background: url(../src/images/background/white-bg.jpeg);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 /* font transition (main links) */
