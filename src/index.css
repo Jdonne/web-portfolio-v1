@@ -118,6 +118,22 @@ a:hover {
 } */
 
 /* Photog page */
+.desktop-display {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .desktop-display {
+    display: flex;
+  }
+}
+.mobile-display {
+  display: flex;
+}
+@media only screen and (min-width: 768px) {
+  .mobile-display {
+    display: none;
+  }
+}
 
 .photo-width {
   width: 50%;
