@@ -3,7 +3,7 @@ import contact from "./content";
 import ProjectCard from "../../shared/ProjectCard";
 const Contact = () => {
   return (
-    <div>
+    <div className="max-desk">
       <Nav />
       <h1 className="text-center my-3">Contact</h1>
       <div className="d-flex align-items-center flex-column">

@@ -11,11 +11,12 @@
 
 /* Nav styling */
 .link:hover {
-  background-color: lightcoral;
+  background-color: #f08080;
   border: 1px;
   border-radius: 10px;
   text-decoration: none;
+  border: 1px black solid;
 }
 .clicked {
-  background-color: lightcoral;
+  border: black 1px solid;
 }

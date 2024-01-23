@@ -31,28 +31,28 @@ const Photography = () => {
   const albumDisplayName = (albumIndex) => {
     switch (albumIndex) {
       case chicago:
-        return { albumDisplay: "chicago", filmType: "Cinestell 800T" };
+        return { albumDisplay: "chicago", filmType: "CINESTILL 800T" };
       case mtl:
         return {
           albumDisplay: "montreal",
-          filmType: "Fuji Susperia X-TRA 400",
+          filmType: "FUJI SUSPERIA X-TRA 400",
         };
       case columbus:
-        return { albumDisplay: "columbus", filmType: "Kodak Ultramax 400" };
+        return { albumDisplay: "columbus", filmType: "KODAK ULTRAMAX 400" };
       case columbusBW:
         return {
           albumDisplay: "columbus B/W",
-          filmType: "Ilford HP5 Plus 400",
+          filmType: "ILFORD HP5 PLUS 400",
         };
       case utsc:
-        return { albumDisplay: "utsc", filmType: "Fuji Susperia X-TRA 400" };
+        return { albumDisplay: "utsc", filmType: "FUJI SUSPERIA X-TRA 400" };
       case scarb:
-        return { albumDisplay: "scarborough", filmType: "Kodak Ultramax 400" };
+        return { albumDisplay: "scarborough", filmType: "KODAK ULTRAMAX 400" };
     }
   };
 
   return (
-    <div>
+    <div className="max-desk">
       <Nav />
       {/* <h1 className="ml-4 my-3">Photography</h1>
       <div className="mb-3 ml-3">
@@ -74,7 +74,7 @@ const Photography = () => {
         })}
       </div> */}
       <div className="d-flex justify-content-between flex-wrap">
-        <h1 className="ml-4 my-3">Photography</h1>
+        <h1 className="ml-4 my-3 film-display">Photography</h1>
         <div className="ml-3 mb-2 mr-4 pb-1 d-flex align-items-end flex-wrap">
           {albumArray.map((album, index) => {
             return (
@@ -97,8 +97,8 @@ const Photography = () => {
         </div>
       </div>
 
-      <div className={"text-center my-5 " + fadeIn}>
-        <strong>Film:</strong>{" "}
+      <div className={"text-center my-5 film-display" + fadeIn}>
+        <strong>FILM:</strong>{" "}
         <span>{albumDisplayName(albumName).filmType}</span>
       </div>
       <div className="mx-3">

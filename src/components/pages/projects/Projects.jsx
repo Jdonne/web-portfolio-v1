@@ -4,7 +4,7 @@ import projectContent from "./content";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="max-desk">
       <Nav />
       <h1 className="text-center ml-4 my-3">Projects</h1>
       <div className="d-flex align-items-center flex-column">

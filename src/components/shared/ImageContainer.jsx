@@ -10,7 +10,7 @@ const ImageContainer = ({ fade, album }) => {
   const displayCols = (col) => {
     return chunk(album, col).map((chunk, index) => {
       return (
-        <div className="d-flex flex-column photo-width" key={"col" + index}>
+        <div className="d-flex flex-column " key={"col" + index}>
           {chunk.map((img, index) => {
             return (
               <div className=" p-1 ">

@@ -1,10 +1,11 @@
 body {
   margin: 0;
-  font-family: "Playfair Display", serif;
+  font-family: "Epilogue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-  background-color: #ffffff;
+  background-color: #ebe9e3;
+  color: #222222;
 }
 #root {
   height: 100vh;
@@ -14,11 +15,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+h1,
+h2,
+h3,
+nav {
+  font-family: "Playfair Display", serif;
+}
 button {
   font-family: inherit;
-  background-color: #efebe0;
+  background-color: #ebe9e3;
   border-radius: 10px;
-  border: none;
+  border: 1px solid black;
 }
 button:focus {
   outline: none;
@@ -34,6 +41,7 @@ a:hover {
   background-repeat: no-repeat;
   font-family: "Playfair Display", serif;
   font-weight: 500;
+  background-color: white;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -42,12 +50,17 @@ a:hover {
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: white;
   }
+}
+
+.landing-color {
+  color: #f08080;
 }
 
 /* font transition (main links) */
 .font-transition {
-  color: orangered;
+  color: #f08080;
   font-size: 42px;
   /* transition: font-size 1s ease; */
   /* -moz-transition: font-size 1s ease;
@@ -81,9 +94,9 @@ a:hover {
 }
 
 /* Nav */
-.nav-bg {
+/* .nav-bg {
   background-color: #efebe0;
-}
+} */
 /* project card */
 
 .card-img-width {
@@ -135,26 +148,26 @@ a:hover {
   }
 }
 
-.photo-width {
-  width: 50%;
-}
-@media only screen and (min-width: 768px) {
-  .photo-width {
-    width: 33%;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .photo-width {
-    width: 25%;
-  }
+.heading-display {
+  font-family: "Playfair", "Playfair Display", serif;
 }
 
 .active-btn,
 .active-btn:focus {
-  background-color: lightcoral;
+  background-color: #f08080;
 }
 
 .rounded-imgs {
   border-radius: 10px;
+}
+
+/* about page */
+.content-fit {
+  width: fit-content;
+}
+
+/* util */
+.max-desk {
+  max-width: 1440px;
+  margin: 0 auto;
 }

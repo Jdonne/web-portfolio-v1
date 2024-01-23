@@ -1,7 +1,7 @@
 const contact = {
   content: (
     <div>
-      <div className="mb-3">
+      {/* <div className="mb-3">
         <strong>xd</strong>portfolio s simply dummy text of the printing and
         typesetting industry. Lorem Ipsum has been the industry's standard dummy
         text took a galley of type and scrambled it to make a type specimen
@@ -10,7 +10,7 @@ const contact = {
         popularised in the 1960s with the release of Letraset sheets containing
         Lorem Ipsum passages, and more recently with desktop publishing software
         like Aldus PageMaker including versions of Lorem Ipsum.,
-      </div>
+      </div> */}
       <div className="text-center">
         <div className="mb-1">
           <strong>linkedin:</strong>{" "}
@@ -30,12 +30,6 @@ const contact = {
             https://github.com/Jdonne
           </a>
         </div>
-        <div className="mb-1">
-          <strong>letterboxd:</strong> link orem Ipsum has been the indust
-        </div>
-        <strong>letterboxd:</strong> link orem Ipsum has been the indust
-        <br></br>
-        <strong>goodreads:</strong> link orem Ipsum has been the indust
       </div>
     </div>
   ),
