@@ -29,7 +29,6 @@ import img28 from "./28.JPG";
 import img29 from "./29.JPG";
 
 export default [
-  img1,
   img2,
   img3,
   img4,
@@ -37,7 +36,6 @@ export default [
   img6,
   img7,
   img8,
-  img9,
   img10,
   img11,
   img12,

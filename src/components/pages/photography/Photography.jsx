@@ -48,31 +48,14 @@ const Photography = () => {
         return { albumDisplay: "utsc", filmType: "FUJI SUSPERIA X-TRA 400" };
       case scarb:
         return { albumDisplay: "scarborough", filmType: "KODAK ULTRAMAX 400" };
+      default:
+        return;
     }
   };
 
   return (
     <div className="max-desk">
       <Nav />
-      {/* <h1 className="ml-4 my-3">Photography</h1>
-      <div className="mb-3 ml-3">
-        {albumArray.map((album, index) => {
-          return (
-            <button
-              key={index}
-              type="button"
-              className={`${albumName === album ? "active-btn" : ""} ml-2 mb-2`}
-              onClick={() => {
-                setAlbumName(album);
-                fade();
-              }}>
-              <span className="p-2">
-                {albumDisplayName(album).albumDisplay}
-              </span>
-            </button>
-          );
-        })}
-      </div> */}
       <div className="d-flex justify-content-between flex-wrap">
         <h1 className="ml-4 my-3 film-display">Photography</h1>
         <div className="ml-3 mb-2 mr-4 pb-1 d-flex align-items-end flex-wrap">

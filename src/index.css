@@ -43,35 +43,59 @@ a:hover {
   font-weight: 500;
   background-color: white;
 }
-
-@media only screen and (min-width: 1024px) {
-  .background-white-img {
-    background: url(../src/images/background/white-bg.jpeg);
-    background-size: auto 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: white;
-  }
+.landing-container {
+  width: 75%;
+  align-items: center;
+  justify-content: center;
 }
 
-.landing-color {
-  color: #f08080;
+.landing-list {
+  height: 550px;
+  align-items: center;
+  justify-content: center;
 }
-
 /* font transition (main links) */
 .font-transition {
   color: #f08080;
-  font-size: 42px;
-  /* transition: font-size 1s ease; */
-  /* -moz-transition: font-size 1s ease;
-  -webkit-transition: font-size 1s ease;
-  -o-transition: font-size 1s ease; */
+  font-size: 36px;
+  text-align: start;
+
   transition: 1s ease;
 }
 .font-transition:hover {
   /* font-size: 54px;
   transition: font-size 1s ease; */
   transform: scale(1.25);
+  text-align: start;
+}
+
+@media only screen and (min-width: 1024px) {
+  .background-white-img {
+    background: url(../src/images/background/white-bg-final.jpeg);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+  .landing-container {
+    width: 100vh;
+    align-items: flex-start;
+    justify-content: start;
+  }
+
+  .landing-list {
+    height: 550px;
+    align-items: flex-start;
+    justify-content: start;
+    margin-top: 16vh;
+  }
+  .font-transition {
+    font-size: 42px;
+  }
+}
+
+.landing-color {
+  color: #f08080;
 }
 
 /* fade in animation */
@@ -93,59 +117,49 @@ a:hover {
   animation-direction: normal;
 }
 
-/* Nav */
-/* .nav-bg {
-  background-color: #efebe0;
-} */
-/* project card */
-
 .card-img-width {
   width: 0%;
+}
+.card-content-width {
+  width: 100%;
+}
+.card-border {
+  border: 1px solid black;
+  border-radius: 10px;
 }
 @media only screen and (min-width: 768px) {
   .card-img-width {
     width: 33%;
     padding: 0.25rem 1.5rem 0.25rem 0.25rem;
   }
-}
-
-/* @media only screen and (min-width: 1024px) {
-  .card-img-width {
-    width: 25%;
-  }
-} */
-
-.card-content-width {
-  width: 100%;
-}
-@media only screen and (min-width: 768px) {
   .card-content-width {
     width: 66%;
   }
 }
 
-/* @media only screen and (min-width: 1024px) {
-  .card-content-width {
-    width: 25%;
-  }
-} */
-
 /* Photog page */
 .desktop-display {
   display: none;
+}
+.mobile-display {
+  display: flex;
+}
+.photo-width {
+  width: 50%;
 }
 @media only screen and (min-width: 768px) {
   .desktop-display {
     display: flex;
   }
-}
-.mobile-display {
-  display: flex;
-}
-@media only screen and (min-width: 768px) {
+  .photo-width {
+    width: 25%;
+  }
   .mobile-display {
     display: none;
   }
+}
+
+@media only screen and (min-width: 768px) {
 }
 
 .heading-display {

@@ -28,7 +28,7 @@ const Nav = (props) => {
   }, []);
 
   return (
-    <nav className="navbar justify-content-end nav-bg pr-4 ">
+    <nav className="navbar justify-content-end pr-4 ">
       <Link to="/" className="p-2 mx-1 link rounded-img">
         <div className="text-dark">Home</div>
       </Link>

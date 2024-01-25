@@ -1,6 +1,6 @@
 const ProjectCard = ({ content, img, title }) => {
   return (
-    <div className="w-75 d-flex p-3 rounded-imgs mb-3 nav-bg fadein-animation">
+    <div className="w-75 d-flex p-3  mb-3 fadein-animation card-border">
       {img && (
         <div className="card-img-width">
           <img

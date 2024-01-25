@@ -22,7 +22,7 @@ import img21 from "./21.JPG";
 
 export default [
   img1,
-  img2,
+  img12,
   img3,
   img4,
   img5,
@@ -30,9 +30,9 @@ export default [
   img7,
   img8,
   img9,
-  img10,
+  img21,
   img11,
-  img12,
+  img2,
   img13,
   img14,
   img15,
@@ -41,5 +41,5 @@ export default [
   img18,
   img19,
   img20,
-  img21,
+  img10,
 ];

@@ -16,20 +16,20 @@ import img15 from "./15.JPG";
 import img16 from "./16.JPG";
 
 export default [
-  img1,
-  img2,
   img3,
+  img2,
+  img1,
   img4,
   img5,
   img6,
-  img7,
   img8,
+  img16,
   img9,
   img10,
   img11,
   img12,
   img13,
-  img14,
+  img7,
   img15,
-  img16,
+  img14,
 ];

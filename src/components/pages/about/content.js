@@ -38,19 +38,24 @@ const about = {
         coffee chat if you ever meet me). And so what happens in limbo? Well, at
         least for me, another neon sign flashes before you lighting a path
         forward, this time, it was a senior nurse that I had no interaction with
-        before, they casually looked at me and said "Hey, you know you don't
+        before. They casually looked at me and said "Hey, you know you don't
         look like you belong here, you look like you belong in front of a desk
-        and computer". I was taken aback as this came out of nowhere, and it was
-        slightly rude. It didn't give me any epiphany as I was already out the
-        door, but it did give me pause. I left nursing and was still working at
-        the hobby shop as an online shop admin. I could work from home (even
+        and a computer". I was taken aback as this came out of nowhere, and it
+        was slightly rude. It didn't give me any epiphany as I was already out
+        the door, but it did give me pause. I left nursing and was still working
+        at the hobby shop as an online shop admin. I could work from home (even
         before covid) most days so I had more free time. I thought why not
         explore web development as I have a good support network for it
-        (relatives and friends in the field). And so I started my journey with
-        the Odin Project, just to see where it went. I found myself comfortable,
-        liking problem solving and making things. After a year I landed a job
-        and the rest is history. I did end up belonging in front of a desk and
-        computer hobbies.
+        (relatives and friends in the field). And so I started my journey with{" "}
+        <a
+          href="https://www.theodinproject.com/"
+          target="_blank"
+          rel="noreferrer">
+          The Odin Project
+        </a>
+        , just to see where it went. I found myself comfortable, liking problem
+        solving and making things. After a year I landed a job and the rest is
+        history. I did end up belonging in front of a desk and computer hobbies.
       </div>
       <div className="mb-3">
         Now that we've got the unsolictied story out of the way, time for fun!
@@ -67,13 +72,17 @@ const about = {
             discogs:{" "}
             <a
               href="https://www.discogs.com/user/OnlyJoy/collection"
-              target="_blank">
+              target="_blank"
+              rel="noreferrer">
               https://www.discogs.com/user/OnlyJoy/collection
             </a>
           </div>
           <div className="mb-1">
             letterboxd:{" "}
-            <a href="https://letterboxd.com/onlyjoy/" target="_blank">
+            <a
+              href="https://letterboxd.com/onlyjoy/"
+              target="_blank"
+              rel="noreferrer">
               https://letterboxd.com/onlyjoy/
             </a>
           </div>
@@ -81,7 +90,8 @@ const about = {
             goodreads:{" "}
             <a
               href="https://www.goodreads.com/user/show/10695699-eric-tien"
-              target="_blank">
+              target="_blank"
+              rel="noreferrer">
               https://www.goodreads.com/user/show/10695699-eric-tien
             </a>
           </div>
@@ -91,7 +101,5 @@ const about = {
   ),
   img: "",
 };
-
-const aboutContent = [about];
 
 export default about;

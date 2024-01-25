@@ -14,18 +14,18 @@ import img13 from "./13.JPG";
 import img14 from "./14.JPG";
 
 export default [
-  img1,
-  img2,
+  // img1,
+  img11,
   img3,
-  img4,
-  img5,
+  // img4,
+  img14,
   img6,
   img7,
   img8,
   img9,
   img10,
-  img11,
+  img2,
   img12,
   img13,
-  img14,
+  img5,
 ];

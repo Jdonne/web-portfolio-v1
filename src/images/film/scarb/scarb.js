@@ -21,10 +21,10 @@ import img19 from "./19.JPG";
 export default [
   img1,
   img2,
-  img3,
-  img4,
+  // img3,
+  img19,
   img5,
-  img6,
+  img18,
   img7,
   img8,
   img9,
@@ -36,6 +36,6 @@ export default [
   img15,
   img16,
   img17,
-  img18,
-  img19,
+  img6,
+  img4,
 ];

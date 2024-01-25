@@ -1,6 +1,7 @@
 import memoryImg from "../../../images/projects/memory.png";
 import resturantImg from "../../../images/projects/restaurant.png";
 import shoppiesImg from "../../../images/projects/shoppies.png";
+import portfolioImg from "../../../images/projects/portfolio.png";
 const portfolio = {
   title: "Portfolio",
   content: (
@@ -24,7 +25,7 @@ const portfolio = {
       </div>
     </div>
   ),
-  img: " ",
+  img: portfolioImg,
 };
 
 const memory = {

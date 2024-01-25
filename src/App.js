@@ -5,8 +5,8 @@ import background from "./images/background/background";
 function App() {
   return (
     <div className="h-100 w-100 background-white-img">
-      <div className="mx-auto w-75 h-100 d-flex flex-column justify-content-center align-items-center">
-        <ul className="d-flex flex-column justify-content-center align-items-center  h-100  p-0 m-0">
+      <div className="mx-auto landing-container h-100 d-flex flex-column ">
+        <ul className="d-flex flex-column   p-0  landing-list">
           <li className="  p-0 d-flex ">
             <Link className=" d-flex font-transition " to="/projects">
               <span className="landing-color display-6"> Projects </span>
