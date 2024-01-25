@@ -7,7 +7,7 @@ import About from "./components/pages/about/About";
 import Photography from "./components/pages/photography/Photography";
 const Routes = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={App} />
         <Route exact path="/contact" component={Contact} />
