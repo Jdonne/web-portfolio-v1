@@ -101,7 +101,7 @@ const about = {
               href="https://www.goodreads.com/user/show/10695699-eric-tien"
               target="_blank"
               rel="noreferrer">
-              placeholder
+              placeholders
             </a>
           </div>
         </div>
