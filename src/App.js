@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./App.css";
-import background from "./images/background/background";
 
 function App() {
   return (
