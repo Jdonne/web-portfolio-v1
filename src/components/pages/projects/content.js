@@ -20,7 +20,7 @@ const portfolio = {
       <div>
         Application is hosted and can be visited at{" "}
         <a href="" target="_blank">
-          dummy text for now
+          dummy text for now.
         </a>
       </div>
     </div>
