@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Portfolio that uses react router to direct pages and bootstrap for general styling. It consists of a main page, projects page, photography page, about page and contact page. Notably the photography page has state managed toggles, to render and display various film albums. A card component is used throughout portfolio with conditionally rendered content fields to accomodate different use cases.
+
+Application is hosted and can be visited at
 
 ## Available Scripts
 
