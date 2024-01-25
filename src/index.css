@@ -21,18 +21,23 @@ h3,
 nav {
   font-family: "Playfair Display", serif;
 }
+
 button {
   font-family: inherit;
   background-color: #ebe9e3;
   border-radius: 10px;
   border: 1px solid black;
 }
+
 button:focus {
   outline: none;
 }
+
 a:hover {
   text-decoration: none;
 }
+
+/* landing page */
 
 .background-white-img {
   background: url(../src/images/film//columbus-bw/13.JPG);
@@ -63,8 +68,6 @@ a:hover {
   transition: 1s ease;
 }
 .font-transition:hover {
-  /* font-size: 54px;
-  transition: font-size 1s ease; */
   transform: scale(1.25);
   text-align: start;
 }
@@ -117,6 +120,8 @@ a:hover {
   animation-direction: normal;
 }
 
+/* product card */
+
 .card-img-width {
   width: 0%;
 }
@@ -157,13 +162,6 @@ a:hover {
   .mobile-display {
     display: none;
   }
-}
-
-@media only screen and (min-width: 768px) {
-}
-
-.heading-display {
-  font-family: "Playfair", "Playfair Display", serif;
 }
 
 .active-btn,

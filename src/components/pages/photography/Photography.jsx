@@ -67,6 +67,9 @@ const Photography = () => {
                 className={`${
                   albumName === album ? "active-btn" : ""
                 } ml-2 mb-2`}
+                aria-label={`${
+                  albumDisplayName(album).albumDisplay
+                } photo album`}
                 onClick={() => {
                   setAlbumName(album);
                   fade();
@@ -80,7 +83,7 @@ const Photography = () => {
         </div>
       </div>
 
-      <div className={"text-center my-5 film-display" + fadeIn}>
+      <div className={"text-center my-5 film-display " + fadeIn}>
         <strong>FILM:</strong>{" "}
         <span>{albumDisplayName(albumName).filmType}</span>
       </div>

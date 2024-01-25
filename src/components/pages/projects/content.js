@@ -42,7 +42,8 @@ const memory = {
         <a
           href="https://jdonne.github.io/memory-card/"
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+          aria-label="memory card project">
           https://jdonne.github.io/memory-card/
         </a>
       </div>
@@ -58,7 +59,11 @@ const shoppies = {
         This is a submission to the UX Developer Intern and Web Developer Intern
         Challenge - (Summer 2021) at Shopify. It allows the user to save their
         favourite films they feel should be up for nomination from the OMDB API(
-        <a href="http://www.omdbapi.com/" target="_blank" rel="noreferrer">
+        <a
+          href="http://www.omdbapi.com/"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="O M D B, A P I">
           http://www.omdbapi.com/
         </a>
         ). When 5 nominees have been selected they will be notified they're
@@ -69,7 +74,8 @@ const shoppies = {
         <a
           href="http://jdonne.github.io/shoppies"
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+          aria-label="shoppies project">
           http://jdonne.github.io/shoppies
         </a>
       </div>
@@ -103,7 +109,8 @@ const restaurant = {
           <a
             href="https://developers.zomato.com/api\"
             target="_blank"
-            rel="noreferrer">
+            rel="noreferrer"
+            aria-label="zomato A P I">
             https://developers.zomato.com/api\
           </a>
         </div>
@@ -112,7 +119,8 @@ const restaurant = {
           <a
             href="http://jdonne.github.io/restaurant-search"
             target="_blank"
-            rel="noreferrer">
+            rel="noreferrer"
+            aria-label="restaurant search project">
             http://jdonne.github.io/restaurant-search
           </a>
         </div>
@@ -124,7 +132,8 @@ const restaurant = {
             <a
               href="https://github.com/Jdonne/restaurant-search"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+              aria-label="restaurant search project repository">
               https://github.com/Jdonne/restaurant-search
             </a>
           </div>

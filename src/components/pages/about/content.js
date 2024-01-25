@@ -67,7 +67,7 @@ const about = {
       </div>
       <div className=" content-fit mx-auto">
         {" "}
-        <div className="text-left">
+        <div className="text-left text-break">
           <div className="mb-1">
             discogs:{" "}
             <a
@@ -93,6 +93,15 @@ const about = {
               target="_blank"
               rel="noreferrer">
               https://www.goodreads.com/user/show/10695699-eric-tien
+            </a>
+          </div>
+          <div className="mb-1">
+            photography:{" "}
+            <a
+              href="https://www.goodreads.com/user/show/10695699-eric-tien"
+              target="_blank"
+              rel="noreferrer">
+              placeholder
             </a>
           </div>
         </div>
