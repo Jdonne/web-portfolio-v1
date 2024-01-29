@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const about = {
   title: "about",
   content: (
@@ -96,10 +97,7 @@ const about = {
             </a>
           </div>
           <div className="mb-1">
-            photography:{" "}
-            <a href="/photography" target="_blank" rel="noreferrer">
-              film photography
-            </a>
+            photography: <Link to="/photography"> film photography</Link>
           </div>
         </div>
       </div>
