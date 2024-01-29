@@ -18,9 +18,9 @@ const portfolio = {
         </span>
       </div>
       <div>
-        Application is hosted and can be visited at{" "}
-        <a href="" target="_blank">
-          dummy text for now.
+        Application is hosted and can be visited{" "}
+        <a href="./" target="_blank">
+          here
         </a>
       </div>
     </div>
@@ -54,7 +54,7 @@ const memory = {
 const shoppies = {
   title: "Shoppies",
   content: (
-    <div>
+    <div className="text-break">
       <div className="mb-3">
         This is a submission to the UX Developer Intern and Web Developer Intern
         Challenge - (Summer 2021) at Shopify. It allows the user to save their

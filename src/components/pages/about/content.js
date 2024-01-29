@@ -97,11 +97,8 @@ const about = {
           </div>
           <div className="mb-1">
             photography:{" "}
-            <a
-              href="https://www.goodreads.com/user/show/10695699-eric-tien"
-              target="_blank"
-              rel="noreferrer">
-              placeholders
+            <a href="/photography" target="_blank" rel="noreferrer">
+              film photography
             </a>
           </div>
         </div>
