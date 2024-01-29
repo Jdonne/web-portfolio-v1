@@ -55,7 +55,7 @@ const about = {
         </a>
         , just to see where it went. I found myself comfortable, liking problem
         solving and making things. After a year I landed a job and the rest is
-        history. I did end up belonging in front of a desk and computer hobbies.
+        history. I did end up belonging in front of a desk and computer.
       </div>
       <div className="mb-3">
         Now that we've got the unsolictied story out of the way, time for fun!
