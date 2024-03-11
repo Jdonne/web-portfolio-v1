@@ -6,10 +6,11 @@ import columbus from "../../../images/film/columbus/columbus";
 import columbusBW from "../../../images/film/columbus-bw/columbus-bw";
 import utsc from "../../../images/film/utsc/utsc";
 import scarb from "../../../images/film/scarb/scarb";
+import tokyo from "../../../images/film/tokyo/tokyo";
 
 import { useEffect, useState } from "react";
 const Photography = () => {
-  const [albumName, setAlbumName] = useState(chicago);
+  const [albumName, setAlbumName] = useState(tokyo);
   const [fadeIn, setFadeIn] = useState("fadein-animation");
 
   useEffect(() => {
@@ -26,7 +27,7 @@ const Photography = () => {
     }, 1000);
   };
 
-  const albumArray = [chicago, mtl, columbus, columbusBW, utsc, scarb];
+  const albumArray = [tokyo, columbusBW, chicago, mtl, columbus, utsc, scarb];
 
   const albumDisplayName = (albumIndex) => {
     switch (albumIndex) {
@@ -48,6 +49,8 @@ const Photography = () => {
         return { albumDisplay: "utsc", filmType: "FUJI SUSPERIA X-TRA 400" };
       case scarb:
         return { albumDisplay: "scarborough", filmType: "KODAK ULTRAMAX 400" };
+      case tokyo:
+        return { albumDisplay: "tokyo", filmType: "MARIX 800T" };
       default:
         return;
     }
@@ -57,8 +60,8 @@ const Photography = () => {
     <div className="max-desk">
       <Nav />
       <div className="d-flex justify-content-between flex-wrap">
-        <h1 className="ml-4 my-3 film-display">Photography</h1>
-        <div className="ml-3 mb-2 mr-4 pb-1 d-flex align-items-end flex-wrap">
+        <h1 className="ml-4 my-3">Photography</h1>
+        <div className="ml-3 mb-2 mr-4 mt-2 pb-1 d-flex align-items-end flex-wrap">
           {albumArray.map((album, index) => {
             return (
               <button
@@ -83,7 +86,7 @@ const Photography = () => {
         </div>
       </div>
 
-      <div className={"text-center my-5 film-display " + fadeIn}>
+      <div className={"text-center film-display " + fadeIn}>
         <strong>FILM:</strong>{" "}
         <span>{albumDisplayName(albumName).filmType}</span>
       </div>

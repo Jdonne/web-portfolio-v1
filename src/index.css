@@ -27,9 +27,11 @@ button {
   background-color: #ebe9e3;
   border-radius: 10px;
   border: 1px solid black;
+  color: #222222;
 }
 
 button:focus {
+  background-color: #f08080;
   outline: none;
 }
 
@@ -120,7 +122,10 @@ a:hover {
   animation-direction: normal;
 }
 
-/* product card */
+/* project card */
+.card-main-width {
+  width: 90%;
+}
 
 .card-img-width {
   width: 0%;
@@ -133,6 +138,9 @@ a:hover {
   border-radius: 10px;
 }
 @media only screen and (min-width: 768px) {
+  .card-main-width {
+    width: 75%;
+  }
   .card-img-width {
     width: 33%;
     padding: 0.25rem 1.5rem 0.25rem 0.25rem;
@@ -152,6 +160,9 @@ a:hover {
 .photo-width {
   width: 50%;
 }
+.film-display {
+  margin: 1rem 0rem 1.5rem;
+}
 @media only screen and (min-width: 768px) {
   .desktop-display {
     display: flex;
@@ -161,6 +172,9 @@ a:hover {
   }
   .mobile-display {
     display: none;
+  }
+  .film-display {
+    margin: 3rem 0rem;
   }
 }
 
